@@ -1,26 +1,122 @@
 [
   {
-    "id": "vidsrc-pro",
-    "name": "VidSrc PRO",
-    "description": "Multi-source streaming embed provider for movies and tv shows.",
+    "id": "vidlink-pro",
+    "name": "VidLink PRO",
+    "description": "Multi-server active video database engine.",
     "type": "embed",
-    "movieUrl": "https://vidsrc.pro/embed/movie/{id}",
-    "tvUrl": "https://vidsrc.pro/embed/tv/{id}/{season}/{episode}"
+    "movieUrl": "https://vidlink.pro{id}",
+    "tvUrl": "https://vidlink.pro{id}/{season}/{episode}"
   },
   {
     "id": "embed-su",
     "name": "Embed SU",
-    "description": "High speed streaming provider.",
+    "description": "Fast playback streaming node mirror.",
     "type": "embed",
-    "movieUrl": "https://embed.su/embed/movie/{id}",
-    "tvUrl": "https://embed.su/embed/tv/{id}/{season}/{episode}"
+    "movieUrl": "https://embed.su{id}",
+    "tvUrl": "https://embed.su{id}/{season}/{episode}"
   },
   {
-    "id": "autoembed",
-    "name": "AutoEmbed",
-    "description": "Alternative streaming fallback provider.",
+    "id": "vidsrc-pm",
+    "name": "VidSrc PM",
+    "description": "Alternative fallback streaming network.",
     "type": "embed",
-    "movieUrl": "https://player.autoembed.cc/embed/movie/{id}",
-    "tvUrl": "https://player.autoembed.cc/embed/tv/{id}/{season}/{episode}"
+    "movieUrl": "https://vidsrc.pm{id}",
+    "tvUrl": "https://vidsrc.pm{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidsrc-cc",
+    "name": "VidSrc CC",
+    "description": "Active mirror routing streaming API targets.",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.cc{id}",
+    "tvUrl": "https://vidsrc.cc{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidsrc-xyz",
+    "name": "VidSrc XYZ",
+    "description": "Public community video routing node.",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.xyz{id}",
+    "tvUrl": "https://vidsrc.xyz{id}/{season}/{episode}"
+  },
+  {
+    "id": "autoembed-cc",
+    "name": "AutoEmbed CC",
+    "description": "Automated embed server player.",
+    "type": "embed",
+    "movieUrl": "https://autoembed.cc{id}",
+    "tvUrl": "https://autoembed.cc{id}/{season}/{episode}"
+  },
+  {
+    "id": "moviesapi-club",
+    "name": "MoviesAPI Club",
+    "description": "Alternative video platform database.",
+    "type": "embed",
+    "movieUrl": "https://moviesapi.club{id}",
+    "tvUrl": "https://moviesapi.club{id}-{season}-{episode}"
+  },
+  {
+    "id": "smashystream",
+    "name": "SmashyStream",
+    "description": "Multi-server aggregator cluster link.",
+    "type": "embed",
+    "movieUrl": "https://smashystream.com{id}",
+    "tvUrl": "https://smashystream.com{id}&season={season}&episode={episode}"
+  },
+  {
+    "id": "superstream",
+    "name": "SuperStream",
+    "description": "Fast content delivery network backup.",
+    "type": "embed",
+    "movieUrl": "https://superstream.watch{id}",
+    "tvUrl": "https://superstream.watch{id}/{season}/{episode}"
+  },
+  {
+    "id": "multiembed-vip",
+    "name": "MultiEmbed VIP",
+    "description": "Dedicated VIP database server source.",
+    "type": "embed",
+    "movieUrl": "https://multiembed.vip{id}",
+    "tvUrl": "https://multiembed.vip{id}&s={season}&e={episode}"
+  },
+  {
+    "id": "twoembed-cc",
+    "name": "TwoEmbed CC",
+    "description": "Classic movie database API link.",
+    "type": "embed",
+    "movieUrl": "https://2embed.cc{id}",
+    "tvUrl": "https://2embed.cc{id}&s={season}&e={episode}"
+  },
+  {
+    "id": "vidsrc-dev",
+    "name": "VidSrc DEV",
+    "description": "Alternative mirror endpoint for testing paths.",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.dev{id}",
+    "tvUrl": "https://vidsrc.dev{id}/{season}/{episode}"
+  },
+  {
+    "id": "primewire-su",
+    "name": "PrimeWire SU",
+    "description": "Aggregated source mirror cluster.",
+    "type": "embed",
+    "movieUrl": "https://primewire.su{id}",
+    "tvUrl": "https://primewire.su{id}/{season}/{episode}"
+  },
+  {
+    "id": "filmku-stream",
+    "name": "Filmku Stream",
+    "description": "Global distribution node alternative.",
+    "type": "embed",
+    "movieUrl": "https://filmku.stream{id}",
+    "tvUrl": "https://filmku.stream{id}/{season}/{episode}"
+  },
+  {
+    "id": "streamgate",
+    "name": "StreamGate",
+    "description": "High accessibility routing network player.",
+    "type": "embed",
+    "movieUrl": "https://streamgate.to{id}",
+    "tvUrl": "https://streamgate.to{id}/{season}/{episode}"
   }
 ]

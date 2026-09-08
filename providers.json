@@ -1,0 +1,22 @@
+[
+  {
+    "name": "VidSrc TO",
+    "url": "https://vidsrc.to{id}",
+    "type": "embed"
+  },
+  {
+    "name": "Embed SU",
+    "url": "https://embed.su{id}",
+    "type": "embed"
+  },
+  {
+    "name": "AutoEmbed",
+    "url": "https://autoembed.cc{id}",
+    "type": "embed"
+  },
+  {
+    "name": "NonoFlix",
+    "url": "https://nonoflix.cc{id}",
+    "type": "embed"
+  }
+]

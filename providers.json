@@ -101,7 +101,7 @@
     "description": "Alternate content proxy infrastructure.",
     "type": "embed",
     "movieUrl": "https://moviesapi.club{id}",
-    "tvUrl": "https://moviesapi.club{id}-{season}-{episode}"
+    "tvUrl": "https://moviesapi.club{id}/{season}/{episode}"
   },
   {
     "id": "moviesapi-club-alt",

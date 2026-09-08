@@ -2,10 +2,58 @@
   {
     "id": "vidlink-pro",
     "name": "VidLink PRO",
-    "description": "Multi-server active video database engine.",
+    "description": "High performance player network featuring active database mirrors.",
     "type": "embed",
     "movieUrl": "https://vidlink.pro{id}",
     "tvUrl": "https://vidlink.pro{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidsrc-in",
+    "name": "VidSrc IN",
+    "description": "Active deployment mirror for multi-server playback routing.",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.in{id}",
+    "tvUrl": "https://vidsrc.in{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidsrcme-ru",
+    "name": "VidSrc RU Mirror",
+    "description": "Active operational media mirror routing requests.",
+    "type": "embed",
+    "movieUrl": "https://vidsrcme.ru{id}",
+    "tvUrl": "https://vidsrcme.ru{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidsrc-stream",
+    "name": "VidSrc Stream Portal",
+    "description": "High availability content extraction cluster link.",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.stream{id}",
+    "tvUrl": "https://vidsrc.stream{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidsrc-rip",
+    "name": "VidSrc RIP Node",
+    "description": "Alternative fast caching media aggregation architecture.",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.rip{id}",
+    "tvUrl": "https://vidsrc.rip{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidsrc-icu",
+    "name": "VidSrc ICU",
+    "description": "Updated database routing node mirror.",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.icu{id}",
+    "tvUrl": "https://vidsrc.icu{id}/{season}/{episode}"
+  },
+  {
+    "id": "vidcore-xyz",
+    "name": "VidCore Streaming",
+    "description": "Dedicated TMDB architecture player alternative.",
+    "type": "embed",
+    "movieUrl": "https://vidcore.xyz{id}",
+    "tvUrl": "https://vidcore.xyz{id}/{season}/{episode}"
   },
   {
     "id": "embed-su",
@@ -16,17 +64,25 @@
     "tvUrl": "https://embed.su{id}/{season}/{episode}"
   },
   {
+    "id": "autoembed-cc",
+    "name": "AutoEmbed CC",
+    "description": "Automated embed server player fallback.",
+    "type": "embed",
+    "movieUrl": "https://autoembed.cc{id}",
+    "tvUrl": "https://autoembed.cc{id}/{season}/{episode}"
+  },
+  {
     "id": "vidsrc-pm",
-    "name": "VidSrc PM",
-    "description": "Alternative fallback streaming network.",
+    "name": "VidSrc PM Alternative",
+    "description": "Fallback stream engine configuration.",
     "type": "embed",
     "movieUrl": "https://vidsrc.pm{id}",
     "tvUrl": "https://vidsrc.pm{id}/{season}/{episode}"
   },
   {
     "id": "vidsrc-cc",
-    "name": "VidSrc CC",
-    "description": "Active mirror routing streaming API targets.",
+    "name": "VidSrc CC Multi",
+    "description": "Aggregated endpoint mirror routing configuration.",
     "type": "embed",
     "movieUrl": "https://vidsrc.cc{id}",
     "tvUrl": "https://vidsrc.cc{id}/{season}/{episode}"
@@ -40,49 +96,57 @@
     "tvUrl": "https://vidsrc.xyz{id}/{season}/{episode}"
   },
   {
-    "id": "autoembed-cc",
-    "name": "AutoEmbed CC",
-    "description": "Automated embed server player.",
-    "type": "embed",
-    "movieUrl": "https://autoembed.cc{id}",
-    "tvUrl": "https://autoembed.cc{id}/{season}/{episode}"
-  },
-  {
     "id": "moviesapi-club",
-    "name": "MoviesAPI Club",
-    "description": "Alternative video platform database.",
+    "name": "MoviesAPI Club Node",
+    "description": "Alternate content proxy infrastructure.",
     "type": "embed",
     "movieUrl": "https://moviesapi.club{id}",
     "tvUrl": "https://moviesapi.club{id}-{season}-{episode}"
   },
   {
+    "id": "moviesapi-club-alt",
+    "name": "MoviesAPI Alternative Slash",
+    "description": "Alternative path variation layout structure.",
+    "type": "embed",
+    "movieUrl": "https://moviesapi.club{id}",
+    "tvUrl": "https://moviesapi.club{id}/{season}/{episode}"
+  },
+  {
     "id": "smashystream",
-    "name": "SmashyStream",
-    "description": "Multi-server aggregator cluster link.",
+    "name": "SmashyStream Alternate",
+    "description": "Multi-server aggregator layout schema.",
     "type": "embed",
     "movieUrl": "https://smashystream.com{id}",
     "tvUrl": "https://smashystream.com{id}&season={season}&episode={episode}"
   },
   {
-    "id": "superstream",
-    "name": "SuperStream",
-    "description": "Fast content delivery network backup.",
+    "id": "superstream-watch",
+    "name": "SuperStream Native",
+    "description": "Content delivery cluster framework.",
     "type": "embed",
     "movieUrl": "https://superstream.watch{id}",
     "tvUrl": "https://superstream.watch{id}/{season}/{episode}"
   },
   {
     "id": "multiembed-vip",
-    "name": "MultiEmbed VIP",
-    "description": "Dedicated VIP database server source.",
+    "name": "MultiEmbed VIP Direct",
+    "description": "Dedicated routing API cluster.",
     "type": "embed",
     "movieUrl": "https://multiembed.vip{id}",
     "tvUrl": "https://multiembed.vip{id}&s={season}&e={episode}"
   },
   {
+    "id": "multiembed-cm",
+    "name": "MultiEmbed CM Alternative",
+    "description": "Alternative domain routing backup.",
+    "type": "embed",
+    "movieUrl": "https://multiembed.cm{id}",
+    "tvUrl": "https://multiembed.cm{id}&s={season}&e={episode}"
+  },
+  {
     "id": "twoembed-cc",
-    "name": "TwoEmbed CC",
-    "description": "Classic movie database API link.",
+    "name": "TwoEmbed CC Base",
+    "description": "Classic alternate streaming bridge schema.",
     "type": "embed",
     "movieUrl": "https://2embed.cc{id}",
     "tvUrl": "https://2embed.cc{id}&s={season}&e={episode}"
@@ -118,5 +182,101 @@
     "type": "embed",
     "movieUrl": "https://streamgate.to{id}",
     "tvUrl": "https://streamgate.to{id}/{season}/{episode}"
+  },
+  {
+    "id": "embed-me-xyz",
+    "name": "EmbedMe XYZ",
+    "description": "Secondary database fallback engine.",
+    "type": "embed",
+    "movieUrl": "https://embedme.xyz{id}",
+    "tvUrl": "https://embedme.xyz{id}/{season}/{episode}"
+  },
+  {
+    "id": "databasegdriveplayer",
+    "name": "GDrivePlayer Network",
+    "description": "Alternative cloud-based cluster system.",
+    "type": "embed",
+    "movieUrl": "https://databasegdriveplayer.co{id}",
+    "tvUrl": "https://databasegdriveplayer.co{id}&season={season}&episode={episode}"
+  },
+  {
+    "id": "vidsrc-net",
+    "name": "VidSrc Net Multi",
+    "description": "Alternative structural data relay endpoint.",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.net{id}",
+    "tvUrl": "https://vidsrc.net{id}/{season}/{episode}"
+  },
+  {
+    "id": "animeapi-com",
+    "name": "AnimeAPI Dedicated",
+    "description": "Aggregated bridge supporting general content fallback options.",
+    "type": "embed",
+    "movieUrl": "https://animeapi.com{id}",
+    "tvUrl": "https://animeapi.com{id}/{season}/{episode}"
+  },
+  {
+    "id": "watchvids-pro",
+    "name": "WatchVids PRO",
+    "description": "Distributed proxy node cluster tracking streams.",
+    "type": "embed",
+    "movieUrl": "https://watchvids.pro{id}",
+    "tvUrl": "https://watchvids.pro{id}/{season}/{episode}"
+  },
+  {
+    "id": "streamplay-to",
+    "name": "StreamPlay Network",
+    "description": "Resilient server cluster balancing link requests.",
+    "type": "embed",
+    "movieUrl": "https://streamplay.to{id}",
+    "tvUrl": "https://streamplay.to{id}/{season}/{episode}"
+  },
+  {
+    "id": "putlocker-su",
+    "name": "Putlocker Legacy Bridge",
+    "description": "Alternative structural aggregation hub.",
+    "type": "embed",
+    "movieUrl": "https://putlocker.su{id}",
+    "tvUrl": "https://putlocker.su{id}/{season}/{episode}"
+  },
+  {
+    "id": "nexusembed",
+    "name": "NexusEmbed Portal",
+    "description": "Global distributed routing server infrastructure.",
+    "type": "embed",
+    "movieUrl": "https://nexusembed.com{id}",
+    "tvUrl": "https://nexusembed.com{id}/{season}/{episode}"
+  },
+  {
+    "id": "openvideocdn",
+    "name": "OpenVideo CDN Node",
+    "description": "Open structural content mapping network framework.",
+    "type": "embed",
+    "movieUrl": "https://openvideocdn.com{id}",
+    "tvUrl": "https://openvideocdn.com{id}/{season}/{episode}"
+  },
+  {
+    "id": "ghostembed-com",
+    "name": "GhostEmbed Core",
+    "description": "Privacy-focused proxy distribution player framework.",
+    "type": "embed",
+    "movieUrl": "https://ghostembed.com{id}",
+    "tvUrl": "https://ghostembed.com{id}/{season}/{episode}"
+  },
+  {
+    "id": "streamhide-to",
+    "name": "StreamHide Node",
+    "description": "High accessibility alternative routing server layout.",
+    "type": "embed",
+    "movieUrl": "https://streamhide.to{id}",
+    "tvUrl": "https://streamhide.to{id}/{season}/{episode}"
+  },
+  {
+    "id": "embedsu-mirror",
+    "name": "EmbedSU Alternative Org",
+    "description": "Community redundancy relay mirror node tracking configuration.",
+    "type": "embed",
+    "movieUrl": "https://embed.su{id}",
+    "tvUrl": "https://embed.su{id}/{season}/{episode}"
   }
 ]

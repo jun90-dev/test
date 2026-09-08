@@ -1,22 +1,30 @@
-[
-  {
-    "name": "VidSrc TO",
-    "url": "https://vidsrc.to{id}",
-    "type": "embed"
-  },
-  {
-    "name": "Embed SU",
-    "url": "https://embed.su{id}",
-    "type": "embed"
-  },
-  {
-    "name": "AutoEmbed",
-    "url": "https://autoembed.cc{id}",
-    "type": "embed"
-  },
-  {
-    "name": "NonoFlix",
-    "url": "https://nonoflix.cc{id}",
-    "type": "embed"
-  }
-]
+{
+  "movies": [
+    {
+      "name": "VidSrc PRO",
+      "url": "https://vidsrc.pro{id}"
+    },
+    {
+      "name": "Embed SU",
+      "url": "https://embed.su{id}"
+    },
+    {
+      "name": "AutoEmbed",
+      "url": "https://autoembed.cc{id}"
+    }
+  ],
+  "series": [
+    {
+      "name": "VidSrc PRO",
+      "url": "https://vidsrc.pro{id}/{season}/{episode}"
+    },
+    {
+      "name": "Embed SU",
+      "url": "https://embed.su{id}/{season}/{episode}"
+    },
+    {
+      "name": "AutoEmbed",
+      "url": "https://autoembed.cc{id}/{season}/{episode}"
+    }
+  ]
+}
